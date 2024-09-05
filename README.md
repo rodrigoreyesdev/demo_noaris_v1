@@ -60,6 +60,7 @@ ___
 Se listan los archivos principales de los recursos, con el fin de explicar su propósito:
 * application.properties: se deja la configuracion de la aplicacion
 * schema.sql: Contiene el script de creacion de la estructura de la base de datos y sus tablas.
+* DiagramaFuncionamiento.PNG: Explica en en nivel macro el funcionamiento de la API. 
 ___
 
 ### Métodos
