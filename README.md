@@ -11,7 +11,6 @@
     * [Pasos para la instalación](#pasos-para-la-instalación)
     * [POSTMAN](#postman)
 3. [Estructura del Proyecto](#estructura-del-proyecto)
-4. [Test](#test)
 
 ---
 
@@ -102,18 +101,3 @@ Ejemplo:
             "message": "El Correo ya esta registrado"
          }
 ```
-***
-
-# Test
-
-### Ejecución de los test
-Para correr los test los pasos son los siguientes:
-En caso de que se quiera correr algun cambio se podrá generar la migración.
-
-		python3 manage.py makemigrations
-		python3 manage.py migrate
-		python3 manage.py test
-
-Para testear solo un recurso en particular:
-
-		python3 manage.py test <nombre recurso>.tests
